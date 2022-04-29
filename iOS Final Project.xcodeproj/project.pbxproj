@@ -13,6 +13,8 @@
 		199C31EE28008CD900B76587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C31EC28008CD900B76587 /* Main.storyboard */; };
 		199C31F028008CDB00B76587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199C31EF28008CDB00B76587 /* Assets.xcassets */; };
 		199C31F328008CDB00B76587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C31F128008CDB00B76587 /* LaunchScreen.storyboard */; };
+		19CE505528186BB700385043 /* DecimalToPercent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE505428186BB700385043 /* DecimalToPercent.swift */; };
+		19CE5057281871D700385043 /* PercentToDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CE5056281871D700385043 /* PercentToDecimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		199C31EF28008CDB00B76587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		199C31F228008CDB00B76587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		199C31F428008CDB00B76587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CE505428186BB700385043 /* DecimalToPercent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalToPercent.swift; sourceTree = "<group>"; };
+		19CE5056281871D700385043 /* PercentToDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentToDecimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				199C31E628008CD900B76587 /* AppDelegate.swift */,
 				199C31E828008CD900B76587 /* SceneDelegate.swift */,
 				199C31EA28008CD900B76587 /* ViewController.swift */,
+				19CE505428186BB700385043 /* DecimalToPercent.swift */,
 				199C31EC28008CD900B76587 /* Main.storyboard */,
+				19CE5056281871D700385043 /* PercentToDecimal.swift */,
 				199C31EF28008CDB00B76587 /* Assets.xcassets */,
 				199C31F128008CDB00B76587 /* LaunchScreen.storyboard */,
 				199C31F428008CDB00B76587 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CE505528186BB700385043 /* DecimalToPercent.swift in Sources */,
+				19CE5057281871D700385043 /* PercentToDecimal.swift in Sources */,
 				199C31EB28008CD900B76587 /* ViewController.swift in Sources */,
 				199C31E728008CD900B76587 /* AppDelegate.swift in Sources */,
 				199C31E928008CD900B76587 /* SceneDelegate.swift in Sources */,
